@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogspot - Filmy Keeda</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./asset/favicon/apple-touch-icon.png"
+    />
+    <link rel="stylesheet" href="./asset/style.css" />
+    <style>
+      section{
+          display: flex;
+          flex-direction: row;
+          gap: 10px;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+      }
+      span{
+          font-size: large;
+      }
+      img{
+          margin: 10px;
+          margin-bottom: 20px;
+      }
+      b{
+          color: yellow;
+      }
+      main a{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+          text-decoration: none;
+      }
+      a :hover{
+          transform: scale(1.1,1.1);
+          transition-duration: 0.3s;
+      }
+      @media (max-width:850px){
+        
+        img{
+          height: 150px;
+        }
+        figcaption{
+          display: flex;
+          flex-wrap: wrap;
+          font-size: small;
+        }
+      }
+      @media (max-width:650px){
+        
+        img{
+          height: 100px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img src="./asset/favicon/android-chrome-512x512.png" class="logo" />
+      <header>
+        <h1 class="head" id="title"><u> FILMY KEEDA - My Blog </u></h1>
+        <span class="head" id="subhead">
+          (Fueling your passion with hidden gems and cinematic treasures from
+          Indian cinema.)
+        </span>
+      </header>
+
+      <br />
+
+      <nav>
+        <a href="index.html"> Home </a> &emsp;
+        <a href="blogs.html" class="active"> Blogs </a> &emsp;
+        <a href="contact.html"> Contact </a> &emsp;
+        <a href="about.html"> About Me </a>
+      </nav>
+
+      <hr />
+
+      <main>
+        <article>
+          <h2 id="pagehead">My Blogs</h2>
+        </article>
+
+        <section>
+          <a href="Sachin.html">
+            <img src="./asset/Images/Sachin.jpg" height="400px" />
+            <span> <b> Blog 1 : Sachin - A Billion Dreams (2017 film) </b> </span>
+          </a>
+
+          <br /><br />
+
+          <a href="October.html">
+            <img src="./asset/Images/October.jpg" height="400px" />
+            <span><b> Blog 2 : October (2018 film) </b></span>
+          </a>
+
+          <br /><br />
+
+          <a href="Swades.html">
+            <img src="./asset/Images/Swades.jpg" height="400px" />
+            <span><b> Blog 3 : Swades (2004 film) </b></span>
+          </a>
+
+          <br /><br />
+
+          <a href="Paheli.html">
+            <img src="./asset/Images/Paheli.jpg" height="400px" />
+            <span><b> Blog 4 : Paheli (2005 film) </b></span>
+          </a>
+        </section>
+      </main>
+
+      <br />
+      <hr />
+      
+      <footer>
+        <center>
+          Copyright @2024 Blogpost by
+          <strong>
+            <a href="about.html" id="foot"> Er. Mayank Mathur </a>
+          </strong>
+          , All Rights Reserved <br />
+          (An initiative by Aishium Creations)
+        </center>
+      </footer>
+    </div>
+  </body>
+</html>

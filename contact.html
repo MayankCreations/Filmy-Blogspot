@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Filmy Keeda</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./asset/favicon/apple-touch-icon.png"
+    />
+    <link rel="stylesheet" href="./asset/style.css" />
+    <style>
+      label{
+          font-size: large;
+      }
+      button{
+          height: 30px;
+          width: 80px;
+          font-size: medium;
+      }
+      .text{
+          font-size: medium;
+      }
+      input{
+          font-size: medium;
+          margin: 15px;
+      }
+      #message{
+          margin-top: 15px;
+      }
+      a{
+          text-decoration: none;
+          color: rgb(150, 184, 219);
+      }
+      #field{
+          padding-left: 45px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img src="./asset/favicon/android-chrome-512x512.png" class="logo" />
+      <header>
+        <h1 class="head" id="title"><u> FILMY KEEDA - My Blog </u></h1>
+        <span class="head" id="subhead">
+          (Fueling your passion with hidden gems and cinematic treasures from
+          Indian cinema.)
+        </span>
+      </header>
+
+      <br />
+
+      <nav>
+        <a href="index.html"> Home </a> &emsp;
+        <a href="blogs.html"> Blogs </a> &emsp;
+        <a href="contact.html" class="active"> Contact </a> &emsp;
+        <a href="about.html"> About Me </a>
+      </nav>
+
+      <hr />
+
+      <main>
+        <article>
+          <h2 id="pagehead">Message :</h2>
+
+          <fieldset id="field">
+            <form action="">
+              <label for="firstname"> <b>First Name :</b> </label>
+              <input type="text" id="firstname" name="firstname" />
+
+              <br /><br />
+
+              <label for="lastname"> <b>Last Name :</b> </label>
+              <input type="text" id="lastname" name="lastname" />
+
+              <br /><br />
+
+              <label for="email"> <b>Email ID :</b> </label>
+              <input type="email" id="email" name="email" />
+
+              <br /><br />
+
+              <label valign="top"> <b>Message :</b> </label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                cols="50"
+                class="overflow-scroll"
+              ></textarea>
+
+              <br /><br /><br />
+
+              <button type="submit">Submit</button>
+            </form>
+          </fieldset>
+        </article>
+
+        <section>
+          <h2 id="pagehead">Follow :</h2>
+
+          <fieldset>
+            <ul>
+              <li>
+                <img src="./asset/Images/twitter.png" height="30px" /> &nbsp;
+                <label><b>Twitter</b></label> &nbsp; : &nbsp;
+                <a href="https://x.com/AishMayank" target="_blank" class="text">
+                  "@AishMayank"
+                </a>
+              </li>
+              <br />
+
+              <li>
+                <img src="./asset/Images/Insta.png" height="30px" /> &nbsp;
+                <label><b>Instagram</b></label> &nbsp; : &nbsp;
+                <a
+                  href="https://www.instagram.com/its_aishium/"
+                  target="_blank"
+                  class="text"
+                >
+                  "@its_Aishium"
+                </a>
+              </li>
+              <br />
+
+              <li>
+                <img src="./asset/Images/Linkedin.png" height="30px" /> &nbsp;
+                <label><b>Linkedin</b></label> &nbsp; : &nbsp;
+                <a
+                  href="https://www.linkedin.com/in/mayank-mathur-0442b72b8/"
+                  target="_blank"
+                  class="text"
+                >
+                  "Mayank Mathur"
+                </a>
+              </li>
+            </ul>
+          </fieldset>
+        </section>
+
+        <section>
+          <h2 id="pagehead">Contact :</h2>
+
+          <fieldset>
+            <ul>
+              <li>
+                <img src="./asset/Images/Gmail.png" height="30px" /> &nbsp;
+                <label><b>Gmail</b></label> &nbsp; : &nbsp;
+                <a
+                  href="mailto:atworkmayank@gmail.com?subject=Hello!"
+                  class="text"
+                >
+                  atworkmayank@gmail.com
+                </a>
+              </li>
+              <br />
+
+              <li>
+                <img src="./asset/Images/Whatsapp logo.png" height="30px" /> &nbsp;
+                <label><b>Whatsapp</b></label> &nbsp; : &nbsp;
+                <a href="https://wa.me/919461263426" target="_blank" class="text">
+                  "+91-9461263426"
+                </a>
+              </li>
+              <br />
+
+              <li>
+                <img src="./asset/Images/call.png" height="30px" /> &nbsp;
+                <label><b>Call</b></label> &nbsp; : &nbsp;
+                <a href="tel:+919461263426" target="_blank" class="text">
+                  "+91-9461263426"
+                </a>
+              </li>
+            </ul>
+          </fieldset>
+        </section>
+      </main>
+
+      <br />
+      <hr />
+
+      <footer>
+        <center>
+          Copyright @2024 Blogpost by
+          <strong>
+            <a href="about.html" id="foot"> Er. Mayank Mathur </a>
+          </strong>
+          , All Rights Reserved <br />
+          (An initiative by Aishium Creations)
+        </center>
+      </footer>
+    </div>
+  </body>
+</html>
